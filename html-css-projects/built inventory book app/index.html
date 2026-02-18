@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Inventory</title>
+  <style>
+    /* Table row backgrounds */
+    tr[class~="read"] {
+      background-image: linear-gradient(to right, #c2f5ff, #f0fff7);
+    }
+
+    tr[class~="to-read"] {
+      background-image: linear-gradient(to right, #ffe6cc, #fff0f0);
+    }
+
+    tr[class~="in-progress"] {
+      background-image: linear-gradient(to right, #d2e0ff, #f5f7ff);
+    }
+
+    /* Status spans */
+    tr[class~="to-read"] span[class~="status"] {
+      border: 2px solid #ff9900;
+      background-image: linear-gradient(to right, #ffe6cc, #fff0f0);
+    }
+
+    tr[class~="read"] span[class~="status"] {
+      border: 2px solid #33cc33;
+      background-image: linear-gradient(to right, #c2f5ff, #f0fff7);
+    }
+
+    tr[class~="in-progress"] span[class~="status"] {
+      border: 2px solid #0066cc;
+      background-image: linear-gradient(to right, #d2e0ff, #f5f7ff);
+    }
+
+    /* Rate and status spans */
+    span[class~="status"], span[class^="rate"] {
+      display: inline-block;
+      height: 25px;
+      width: 80px;
+      padding: 3px;
+    }
+
+    /* Rate dots */
+    span[class^="rate"] > span {
+      border: 1px solid #666;
+      border-radius: 50%;
+      margin: 2px;
+      height: 12px;
+      width: 12px;
+      background-color: #eee;
+    }
+
+    /* Rating colors */
+    span[class*="one"] > span:first-child {
+      background-image: linear-gradient(to right, #ff99cc, #ffcccc);
+    }
+
+    span[class*="two"] > span:nth-child(-n+2) {
+      background-image: linear-gradient(to right, #ffff99, #ffffcc);
+    }
+
+    span[class*="three"] > span {
+      background-image: linear-gradient(to right, #99ff99, #ccffcc);
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #000;
+      padding: 10px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1>Book Inventory</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Category</th>
+        <th>Status</th>
+        <th>Rate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="read">
+        <td>The Alchemist</td>
+        <td>Paulo Coelho</td>
+        <td>Fiction</td>
+        <td><span class="status">Read</span></td>
+        <td><span class="rate three"><span></span><span></span><span></span></span></td>
+      </tr>
+      <tr class="to-read">
+        <td>Atomic Habits</td>
+        <td>James Clear</td>
+        <td>Self-help</td>
+        <td><span class="status">To Read</span></td>
+        <td><span class="rate one"><span></span><span></span><span></span></span></td>
+      </tr>
+      <tr class="in-progress">
+        <td>Clean Code</td>
+        <td>Robert C. Martin</td>
+        <td>Programming</td>
+        <td><span class="status">In Progress</span></td>
+        <td><span class="rate two"><span></span><span></span><span></span></span></td>
+      </tr>
+      <tr class="read">
+        <td>Dune</td>
+        <td>Frank Herbert</td>
+        <td>Sci-Fi</td>
+        <td><span class="status">Read</span></td>
+        <td><span class="rate three"><span></span><span></span><span></span></span></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

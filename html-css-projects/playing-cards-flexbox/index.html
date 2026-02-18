@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Playing Cards</title>
+
+  <!-- CSS MUST be inside a style tag for the tests -->
+  <style>
+    /* Test 8–11 */
+    #playing-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    /* Test 12–13 */
+    .card {
+      display: flex;
+      justify-content: space-between;
+      width: 150px;
+      height: 220px;
+      padding: 10px;
+      border: 2px solid black;
+      border-radius: 10px;
+    }
+
+    /* Test 14 */
+    .left {
+      align-self: flex-start;
+    }
+
+    /* Test 15, 17, 18 */
+    .middle {
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Test 16 */
+    .right {
+      align-self: flex-end;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Test 1 -->
+  <main id="playing-cards">
+
+    <!-- Test 2–7 -->
+    <div class="card">
+      <div class="left">A♠</div>
+      <div class="middle">
+        <span>♠</span>
+        <span>♠</span>
+        <span>♠</span>
+      </div>
+      <div class="right">A♠</div>
+    </div>
+
+    <div class="card">
+      <div class="left">K♥</div>
+      <div class="middle">
+        <span>♥</span>
+        <span>♥</span>
+        <span>♥</span>
+      </div>
+      <div class="right">K♥</div>
+    </div>
+
+    <div class="card">
+      <div class="left">Q♦</div>
+      <div class="middle">
+        <span>♦</span>
+        <span>♦</span>
+        <span>♦</span>
+      </div>
+      <div class="right">Q♦</div>
+    </div>
+
+  </main>
+
+</body>
+</html>
