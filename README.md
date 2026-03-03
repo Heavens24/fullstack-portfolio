@@ -2,8 +2,6 @@ Lebohang Rasemetse – Full Stack Developer Portfolio
 
 Modern web applications built with JavaScript, React principles, and backend integration concepts.
 
-🚀 About This Project
-
 This portfolio demonstrates my ability to build responsive, interactive, and automation-driven web solutions using modern frontend and scripting technologies.
 
 It highlights:
@@ -29,5 +27,3 @@ JavaScript (ES6+)
 Python (Automation & Web Scraping)
 
 Git & GitHub Pages
-
-📂 Projects Included
