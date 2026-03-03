@@ -1,16 +1,33 @@
-# Lebohang Rasemetse - Full Stack Portfolio
+Lebohang Rasemetse – Full Stack Developer Portfolio
 
-24-Hour Website Fix & Automation Specialist
+Modern web applications built with JavaScript, React principles, and backend integration concepts.
 
-## Skills
-- HTML & CSS
-- JavaScript
-- Python Automation
+🚀 About This Project
 
-## Projects Included
-1. Responsive Portfolio Landing Page
-2. Smart JavaScript Calculator
-3. Python Web Scraper
+This portfolio demonstrates my ability to build responsive, interactive, and automation-driven web solutions using modern frontend and scripting technologies.
 
-## Contact
-Available for freelance work (HTML fixes, JS tools, Python scripts).
+It highlights:
+
+Clean UI structure
+
+Responsive layouts
+
+JavaScript interactivity
+
+Automation tools using Python
+
+Real-world problem solving
+
+🛠 Tech Stack
+
+HTML5
+
+CSS3
+
+JavaScript (ES6+)
+
+Python (Automation & Web Scraping)
+
+Git & GitHub Pages
+
+📂 Projects Included
